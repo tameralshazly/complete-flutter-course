@@ -240,6 +240,25 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.4.0"
+<<<<<<< Updated upstream
+=======
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      sha256: "57c07bf82207aee366dfaa3867b3164e4f03a238a461a11b0e8a3a510d51203d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.1"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "43798d895c929056255600343db8f049921cbec94d31ec87f1dc5c16c01935dd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.5"
+>>>>>>> Stashed changes
   pointycastle:
     dependency: transitive
     description:
@@ -277,6 +296,17 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.1"
+<<<<<<< Updated upstream
+=======
+  state_notifier:
+    dependency: transitive
+    description:
+      name: state_notifier
+      sha256: b8677376aa54f2d7c58280d5a007f9e8774f1968d1fb1c096adcb4792fba29bb
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+>>>>>>> Stashed changes
   stream_channel:
     dependency: transitive
     description:
@@ -285,6 +315,17 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
+<<<<<<< Updated upstream
+=======
+  stream_transform:
+    dependency: transitive
+    description:
+      name: stream_transform
+      sha256: "14a00e794c7c11aa145a170587321aedce29769c08d7f58b1d141da75e3b1c6f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
+>>>>>>> Stashed changes
   string_scanner:
     dependency: transitive
     description:
@@ -301,6 +342,17 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
+<<<<<<< Updated upstream
+=======
+  test:
+    dependency: transitive
+    description:
+      name: test
+      sha256: "9b0dd8e36af4a5b1569029949d50a52cb2a2a2fdaa20cebb96e6603b9ae241f9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.24.6"
+>>>>>>> Stashed changes
   test_api:
     dependency: transitive
     description:
@@ -309,6 +361,25 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.1"
+<<<<<<< Updated upstream
+=======
+  test_core:
+    dependency: transitive
+    description:
+      name: test_core
+      sha256: "4bef837e56375537055fdbbbf6dd458b1859881f4c7e6da936158f77d61ab265"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.6"
+  timing:
+    dependency: transitive
+    description:
+      name: timing
+      sha256: "70a3b636575d4163c477e6de42f247a23b315ae20e86442bebe32d3cabf61c32"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+>>>>>>> Stashed changes
   typed_data:
     dependency: transitive
     description:
@@ -325,6 +396,25 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+<<<<<<< Updated upstream
+=======
+  vm_service:
+    dependency: transitive
+    description:
+      name: vm_service
+      sha256: c538be99af830f478718b51630ec1b6bee5e74e52c8a802d328d9e71d35d2583
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.10.0"
+  watcher:
+    dependency: transitive
+    description:
+      name: watcher
+      sha256: "3d2ad6751b3c16cf07c7fca317a1413b3f26530319181b37e3b9039b84fc01d8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
+>>>>>>> Stashed changes
   web:
     dependency: transitive
     description:
