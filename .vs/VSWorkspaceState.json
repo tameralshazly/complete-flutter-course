@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ecommerce_app",
+    "\\ecommerce_app\\lib"
   ],
-  "SelectedNode": "\\ecommerce_app",
+  "SelectedNode": "\\ecommerce_app\\lib\\main.dart",
   "PreviewInSolutionExplorer": false
 }
