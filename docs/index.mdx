@@ -1,8 +1,38 @@
-# Complete Flutter Course Bundle - Documentation
+# Flutter Foundations Course - Documentation
 
-> **Note**: This site is a work-in-progress. More pages will be added as I make progress with the course.
+This is the documentation website for the Flutter eCommerce app that we will build as part of my [Flutter Foundations Course](https://codewithandrea.com/courses/flutter-foundations/).
 
-This is the documentation website for the Flutter eCommerce app that we will build as part of my [Complete Flutter Course Bundle](https://codewithandrea.com/courses/complete-flutter-bundle/).
+It contains FAQs and additional resources you may find useful.
+
+## Articles & Reference Guides
+
+I often publish in-depth articles that are a great complement to the course lessons.
+
+Here's a complete list:
+
+- [Articles & Reference guides](/resources/index)
+
+## FAQ
+
+This section contains answers to common issues regarding:
+
+- Getting the **starter project** to run
+- **Android emulator** and **gradle** issues
+- **Cocoapods** and running on iOS/macOS
+
+Head over to sidebar to read all the FAQs.
+
+## Course Updates
+
+Here's a list of all the course updates I've made so far:
+
+- [October 2022 Update (Flutter 3.3, Riverpod 2.0, GoRouter 5.0)](/updates/2022-10)
+- [November 2022 Update](/updates/2022-11)
+- [February 2023 Update](/updates/2023-02)
+- [May 2023 Update (Flutter 3.10, Dart 3.0, Riverpod 2.3, GoRouter 7.0)](/updates/2023-05)
+- [August 2023 Update (Flutter 3.13, Dart 3.1, GoRouter 10.1)](/updates/2023-08)
+
+## Flutter Web Demo
 
 A Flutter web build of the completed app is available at this link:
 
@@ -19,7 +49,7 @@ This is intended as a **reference eCommerce app** for viewing and purchasing pro
 - Sign in & sign out flows
 - Admin pages (manage products and orders)
 
-## Flutter Client
+### Flutter Client
 
 The demo includes a Flutter app that runs on iOS, Android and web.
 
@@ -36,7 +66,6 @@ The **primary** packages in use by the reference app are:
 - [`cached_network_image`](cached_network_image) to show images from the Internet and keep them in the cache directory
 - [`mocktail`](https://pub.dev/packages/mocktail) for testing
 
-
 ### Architecture
 
 The client app uses the controller-service-repository pattern and defines four layers:
@@ -46,5 +75,5 @@ The client app uses the controller-service-repository pattern and defines four l
 - **Application layer** using **service** classes to mediate between the repositories and the levels below
 - **Presentation layer** containing the **widgets** along with the **controllers** that manipulate their state and call APIs from the layers above
 
-
+Learn more in the [articles & reference guides](/resources/index).
 
