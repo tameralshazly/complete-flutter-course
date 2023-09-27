@@ -36,10 +36,7 @@ void main() async {
   // * https://docs.flutter.dev/testing/errors
   registerErrorHandlers(errorLogger);
   // * Entry point of the app
-  runApp(UncontrolledProviderScope(
-    container: container,
-    child: const MyApp(),
-  ));
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 void registerErrorHandlers(ErrorLogger errorLogger) {

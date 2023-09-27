@@ -1,7 +1,8 @@
 import 'dart:math';
 
-import 'package:ecommerce_app/src/common_widgets/async_value_widget.dart';
-import 'package:ecommerce_app/src/features/products/domain/product.dart';
+
+import 'package:ecommerce_app/src/features/products/data/fake_product_repository.dart';
+
 import 'package:ecommerce_app/src/features/products/presentation/products_list/product_card.dart';
 import 'package:ecommerce_app/src/features/products/presentation/products_list/products_search_state_provider.dart';
 import 'package:ecommerce_app/src/localization/string_hardcoded.dart';
@@ -17,29 +18,17 @@ class ProductsGrid extends ConsumerWidget {
   const ProductsGrid({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final productsListValue = ref.watch(productsSearchResultsProvider);
-    return AsyncValueWidget<List<Product>>(
-      value: productsListValue,
-      data: (products) => products.isEmpty
-          ? Center(
-              child: Text(
-                'No products found'.hardcoded,
-                style: Theme.of(context).textTheme.headlineMedium,
-              ),
-            )
-          : ProductsLayoutGrid(
-              itemCount: products.length,
-              itemBuilder: (_, index) {
-                final product = products[index];
-                return ProductCard(
-                  product: product,
-                  onPressed: () => context.goNamed(
-                    AppRoute.product.name,
-                    pathParameters: {'id': product.id},
-                  ),
-                );
-              },
+
+  Widget build(BuildContext context) {
+    // TODO: Read from data source
+    final products = FakeProductRepository.instance.getProductsList();
+
+    return products.isEmpty
+        ? Center(
+            child: Text(
+              'No products found'.hardcoded,
+              style: Theme.of(context).textTheme.headlineMedium,
+
             ),
     );
   }
